@@ -1,8 +1,35 @@
-# React + Vite
+# ⚡ Enhanced React Events App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an upgraded version of the original **React Events App**, featuring major UI improvements, enhanced data handling, and new functionalities like search and efficient API interaction using **TanStack Query (React Query)**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Major UI redesign for a cleaner, more intuitive interface
+- 🔎 Added **Search Bar** for filtering events dynamically
+- ⚛️ Integrated **TanStack Query (React Query)** for powerful data fetching & mutation
+- 🔄 Uses `useQuery` for optimized GET requests with built-in loading & error states
+- 📨 Implements `useMutation` for efficient POST/PUT requests with full loading/action state handling
+- 📦 Cleaner, more maintainable code with separation of concerns
+
+## 🧰 Tech Stack
+
+- React
+- React Router DOM
+- TanStack Query (React Query)
+- Dummy Backend or API
+- LocalStorage for token management
+
+## 🧪 React Query Benefits in This App
+
+- 📡 Automatic background fetching and caching
+- ⏱️ Built-in loading and error state management
+- 🔁 Auto refetch & stale data control
+- 💬 Simplified API interaction logic
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/priyanjha18/enhanced-react-events.git
+cd enhanced-react-events
+npm install
+npm start
